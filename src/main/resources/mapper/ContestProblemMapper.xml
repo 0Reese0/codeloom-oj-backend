@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.codeloom.mapper.ContestProblemMapper">
+
+    <resultMap id="BaseResultMap" type="com.codeloom.domain.ContestProblem">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <id property="cid" column="cid" jdbcType="BIGINT"/>
+            <id property="pid" column="pid" jdbcType="BIGINT"/>
+            <result property="displayId" column="display_id" jdbcType="VARCHAR"/>
+            <result property="displayTitle" column="display_title" jdbcType="VARCHAR"/>
+            <result property="color" column="color" jdbcType="VARCHAR"/>
+            <result property="gmtCreate" column="gmt_create" jdbcType="TIMESTAMP"/>
+            <result property="gmtModified" column="gmt_modified" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,cid,pid,
+        display_id,display_title,color,
+        gmt_create,gmt_modified
+    </sql>
+</mapper>
