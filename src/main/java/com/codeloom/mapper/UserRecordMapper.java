@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.UserRecord;
+import com.codeloom.model.domain.UserRecord;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

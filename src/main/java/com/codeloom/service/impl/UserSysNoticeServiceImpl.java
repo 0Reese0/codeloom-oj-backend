@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.UserSysNotice;
+import com.codeloom.model.domain.UserSysNotice;
 import com.codeloom.service.UserSysNoticeService;
 import com.codeloom.mapper.UserSysNoticeMapper;
 import org.springframework.stereotype.Service;

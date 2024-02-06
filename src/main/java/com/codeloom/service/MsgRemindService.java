@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.MsgRemind;
+import com.codeloom.model.domain.MsgRemind;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

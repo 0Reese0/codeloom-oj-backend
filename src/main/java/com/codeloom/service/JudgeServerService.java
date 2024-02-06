@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.JudgeServer;
+import com.codeloom.model.domain.JudgeServer;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

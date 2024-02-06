@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.Announcement;
+import com.codeloom.model.domain.Announcement;
 import com.codeloom.service.AnnouncementService;
 import com.codeloom.mapper.AnnouncementMapper;
 import org.springframework.stereotype.Service;

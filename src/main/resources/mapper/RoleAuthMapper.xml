@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.RoleAuthMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.RoleAuth">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.RoleAuth">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="authId" column="auth_id" jdbcType="BIGINT"/>
             <result property="roleId" column="role_id" jdbcType="BIGINT"/>

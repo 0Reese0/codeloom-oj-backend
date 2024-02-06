@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.TrainingRecord;
+import com.codeloom.model.domain.TrainingRecord;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

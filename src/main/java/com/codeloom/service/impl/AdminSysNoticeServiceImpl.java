@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.AdminSysNotice;
+import com.codeloom.model.domain.AdminSysNotice;
 import com.codeloom.service.AdminSysNoticeService;
 import com.codeloom.mapper.AdminSysNoticeMapper;
 import org.springframework.stereotype.Service;

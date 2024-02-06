@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.AdminSysNotice;
+import com.codeloom.model.domain.AdminSysNotice;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

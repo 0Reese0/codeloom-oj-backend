@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.TrainingRecordMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.TrainingRecord">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.TrainingRecord">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="tid" column="tid" jdbcType="BIGINT"/>
             <result property="tpid" column="tpid" jdbcType="BIGINT"/>

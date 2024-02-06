@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.Announcement;
+import com.codeloom.model.domain.Announcement;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

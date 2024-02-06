@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.UserInfoMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.UserInfo">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.UserInfo">
             <id property="uuid" column="uuid" jdbcType="VARCHAR"/>
             <result property="username" column="username" jdbcType="VARCHAR"/>
             <result property="password" column="password" jdbcType="VARCHAR"/>

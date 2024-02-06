@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.TrainingRegister;
+import com.codeloom.model.domain.TrainingRegister;
 import com.codeloom.service.TrainingRegisterService;
 import com.codeloom.mapper.TrainingRegisterMapper;
 import org.springframework.stereotype.Service;

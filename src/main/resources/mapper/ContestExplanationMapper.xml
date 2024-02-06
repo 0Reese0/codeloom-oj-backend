@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.ContestExplanationMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.ContestExplanation">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.ContestExplanation">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="cid" column="cid" jdbcType="BIGINT"/>
             <result property="uid" column="uid" jdbcType="VARCHAR"/>

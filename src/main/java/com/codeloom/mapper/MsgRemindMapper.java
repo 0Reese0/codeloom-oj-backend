@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.MsgRemind;
+import com.codeloom.model.domain.MsgRemind;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.RoleAuth;
+import com.codeloom.model.domain.RoleAuth;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

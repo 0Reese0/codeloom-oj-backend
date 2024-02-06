@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.TagClassification;
+import com.codeloom.model.domain.TagClassification;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

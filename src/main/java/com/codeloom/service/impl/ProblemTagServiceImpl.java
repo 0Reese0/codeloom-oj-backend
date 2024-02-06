@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.ProblemTag;
+import com.codeloom.model.domain.ProblemTag;
 import com.codeloom.service.ProblemTagService;
 import com.codeloom.mapper.ProblemTagMapper;
 import org.springframework.stereotype.Service;

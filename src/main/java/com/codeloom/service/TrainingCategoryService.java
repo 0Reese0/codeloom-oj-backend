@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.TrainingCategory;
+import com.codeloom.model.domain.TrainingCategory;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

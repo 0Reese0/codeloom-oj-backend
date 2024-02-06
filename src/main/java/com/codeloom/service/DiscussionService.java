@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.Discussion;
+import com.codeloom.model.domain.Discussion;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

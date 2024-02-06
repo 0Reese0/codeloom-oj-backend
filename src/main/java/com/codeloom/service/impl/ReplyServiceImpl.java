@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.Reply;
+import com.codeloom.model.domain.Reply;
 import com.codeloom.service.ReplyService;
 import com.codeloom.mapper.ReplyMapper;
 import org.springframework.stereotype.Service;

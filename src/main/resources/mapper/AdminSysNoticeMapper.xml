@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.AdminSysNoticeMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.AdminSysNotice">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.AdminSysNotice">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="title" column="title" jdbcType="VARCHAR"/>
             <result property="content" column="content" jdbcType="VARCHAR"/>

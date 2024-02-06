@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.JudgeCaseMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.JudgeCase">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.JudgeCase">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <id property="submitId" column="submit_id" jdbcType="BIGINT"/>
             <id property="uid" column="uid" jdbcType="VARCHAR"/>

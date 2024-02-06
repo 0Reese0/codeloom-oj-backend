@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.Auth;
+import com.codeloom.model.domain.Auth;
 import com.codeloom.service.AuthService;
 import com.codeloom.mapper.AuthMapper;
 import org.springframework.stereotype.Service;

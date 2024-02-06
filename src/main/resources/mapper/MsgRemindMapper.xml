@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.MsgRemindMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.MsgRemind">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.MsgRemind">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="action" column="action" jdbcType="VARCHAR"/>
             <result property="sourceId" column="source_id" jdbcType="INTEGER"/>

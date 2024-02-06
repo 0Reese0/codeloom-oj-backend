@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.ContestPrint;
+import com.codeloom.model.domain.ContestPrint;
 import com.codeloom.service.ContestPrintService;
 import com.codeloom.mapper.ContestPrintMapper;
 import org.springframework.stereotype.Service;

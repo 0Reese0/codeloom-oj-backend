@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.codeloom.mapper.TagClassificationMapper">
 
-    <resultMap id="BaseResultMap" type="com.codeloom.domain.TagClassification">
+    <resultMap id="BaseResultMap" type="com.codeloom.model.domain.TagClassification">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="oj" column="oj" jdbcType="VARCHAR"/>

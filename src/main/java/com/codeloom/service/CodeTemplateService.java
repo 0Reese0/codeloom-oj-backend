@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.CodeTemplate;
+import com.codeloom.model.domain.CodeTemplate;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

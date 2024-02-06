@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.RemoteJudgeAccount;
+import com.codeloom.model.domain.RemoteJudgeAccount;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

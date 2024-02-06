@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.ProblemLanguage;
+import com.codeloom.model.domain.ProblemLanguage;
 import com.codeloom.service.ProblemLanguageService;
 import com.codeloom.mapper.ProblemLanguageMapper;
 import org.springframework.stereotype.Service;

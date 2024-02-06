@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.DiscussionLike;
+import com.codeloom.model.domain.DiscussionLike;
 import com.codeloom.service.DiscussionLikeService;
 import com.codeloom.mapper.DiscussionLikeMapper;
 import org.springframework.stereotype.Service;

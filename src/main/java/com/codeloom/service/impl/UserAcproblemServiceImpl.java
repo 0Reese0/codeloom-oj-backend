@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.UserAcproblem;
+import com.codeloom.model.domain.UserAcproblem;
 import com.codeloom.service.UserAcproblemService;
 import com.codeloom.mapper.UserAcproblemMapper;
 import org.springframework.stereotype.Service;

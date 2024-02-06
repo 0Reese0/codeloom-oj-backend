@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.ContestRegister;
+import com.codeloom.model.domain.ContestRegister;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

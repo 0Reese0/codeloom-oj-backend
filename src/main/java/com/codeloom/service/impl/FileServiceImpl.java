@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.File;
+import com.codeloom.model.domain.File;
 import com.codeloom.service.FileService;
 import com.codeloom.mapper.FileMapper;
 import org.springframework.stereotype.Service;

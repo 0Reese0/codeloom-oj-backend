@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.JudgeCase;
+import com.codeloom.model.domain.JudgeCase;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

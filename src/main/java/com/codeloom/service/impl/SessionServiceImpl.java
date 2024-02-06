@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.Session;
+import com.codeloom.model.domain.Session;
 import com.codeloom.service.SessionService;
 import com.codeloom.mapper.SessionMapper;
 import org.springframework.stereotype.Service;

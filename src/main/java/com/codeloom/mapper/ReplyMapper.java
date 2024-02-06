@@ -1,6 +1,6 @@
 package com.codeloom.mapper;
 
-import com.codeloom.domain.Reply;
+import com.codeloom.model.domain.Reply;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

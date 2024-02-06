@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.JudgeServer;
+import com.codeloom.model.domain.JudgeServer;
 import com.codeloom.service.JudgeServerService;
 import com.codeloom.mapper.JudgeServerMapper;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.AdminSysNotice;
+import com.codeloom.model.domain.AdminSysNotice;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

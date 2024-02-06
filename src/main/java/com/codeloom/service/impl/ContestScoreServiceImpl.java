@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.ContestScore;
+import com.codeloom.model.domain.ContestScore;
 import com.codeloom.service.ContestScoreService;
 import com.codeloom.mapper.ContestScoreMapper;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.codeloom.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.codeloom.domain.Role;
+import com.codeloom.model.domain.Role;
 import com.codeloom.service.RoleService;
 import com.codeloom.mapper.RoleMapper;
 import org.springframework.stereotype.Service;

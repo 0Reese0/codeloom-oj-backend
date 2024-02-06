@@ -1,6 +1,6 @@
 package com.codeloom.service;
 
-import com.codeloom.domain.UserRecord;
+import com.codeloom.model.domain.UserRecord;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
