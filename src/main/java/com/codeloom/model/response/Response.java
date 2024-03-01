@@ -2,7 +2,9 @@ package com.codeloom.model.response;
 
 
 import com.codeloom.model.enums.ResponseCodeEnum;
+import lombok.Data;
 
+@Data
 public class Response<T> {
     private Integer code;
 
@@ -16,40 +18,47 @@ public class Response<T> {
         this.msg = msg;
     }
 
-
-    public static <T> Response<T> fail(ResponseCodeEnum errorCode) {
-        return new Response<>(errorCode.getCode(), null, errorCode.getMsg());
-    }
-
-    public static <T> Response<T> fail(Integer code, String msg) {
-        return new Response<>(code, null, msg);
+    /**
+     * 成功
+     */
+    public static <T> Response<T> success(T data,String msg) {
+        return new Response<>(ResponseCodeEnum.SUCCESS.getCode(), data, msg);
     }
 
     public static <T> Response<T> success(T data) {
         return new Response<>(ResponseCodeEnum.SUCCESS.getCode(), data, ResponseCodeEnum.SUCCESS.getMsg());
     }
 
-    public Integer getCode() {
-        return code;
+    public static <T> Response<T> success(String msg) {
+        return new Response<>(ResponseCodeEnum.SUCCESS.getCode(), null, msg);
     }
 
-    public void setCode(Integer code) {
-        this.code = code;
+    public static <T> Response<T> success() {
+        return new Response<>(ResponseCodeEnum.SUCCESS.getCode(), null, ResponseCodeEnum.SUCCESS.getMsg());
     }
 
-    public T getData() {
-        return data;
+
+    /**
+     * 失败
+     */
+    public static <T> Response<T> fail( String msg) {
+        return new Response<>(ResponseCodeEnum.FAIL.getCode(), null, msg);
     }
 
-    public void setData(T data) {
-        this.data = data;
+
+    public static <T> Response<T> fail(ResponseCodeEnum errorCode) {
+        return new Response<>(errorCode.getCode(), null, errorCode.getMsg());
     }
 
-    public String getMsg() {
-        return msg;
+    public static <T> Response<T> fail(ResponseCodeEnum errorCode, String msg) {
+        return new Response<>(errorCode.getCode(), null, msg);
     }
 
-    public void setMsg(String msg) {
-        this.msg = msg;
+    public static <T> Response<T> fail(Integer code, String msg) {
+        return new Response<>(code, null, msg);
     }
+
+
+
+
 }

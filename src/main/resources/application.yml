@@ -15,10 +15,22 @@ spring:
     timeout: 86400
 
     #服务启动端口
-    server:
-      port: 8081
+server:
+  port: 8081
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/*Mapper.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 接口文档配置
+knife4j:
+  enable: true
+  openapi:
+    title: "接口文档"
+    version: 1.0
+    group:
+      default:
+        api-rule: package
+        api-rule-resources:
+          - com.codeloom.controller

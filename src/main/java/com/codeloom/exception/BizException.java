@@ -9,7 +9,7 @@ public class BizException extends RuntimeException {
 
     public BizException(String msg) {
         super(msg);
-        this.code = ResponseCodeEnum.ERROR.getCode();
+        this.code = ResponseCodeEnum.FAIL.getCode();
         this.msg = msg;
     }
 

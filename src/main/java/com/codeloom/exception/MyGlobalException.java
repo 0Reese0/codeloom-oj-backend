@@ -19,7 +19,7 @@ public class MyGlobalException {
     public Response handleException(Exception e) {
         e.printStackTrace();
         log.error(e.getMessage(), e);
-        return Response.fail(ResponseCodeEnum.ERROR.getCode(), e.getMessage());
+        return Response.fail(ResponseCodeEnum.FAIL.getCode(), e.getMessage());
     }
 
     @ExceptionHandler(value = BizException.class)
